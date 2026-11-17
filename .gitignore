@@ -1,0 +1,23 @@
+# Editor / office lock files
+.~lock.*#
+# PDF reference files
+*.pdf
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+
+# Generated artefacts (never commit)
+generated/
+
+# Local-only material (never commit)
+local/
+.mypy_cache/
+.ruff_cache/
